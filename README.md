@@ -1,3 +1,28 @@
+
+
+# 🧠 AI Agent Trip Planner 🧳
+
+An intelligent, multi-agent travel assistant that helps users plan personalized trips using **RAG (Retrieval-Augmented Generation)**, **CrewAI**, **Streamlit**, and **Langchain**. The system uses local LLMs (like `ollama/llama3`) or OpenAI models to research, guide, and plan travel itineraries interactively.
+
+---
+
+## 🚀 Features
+
+- 🗺️ **Location Expert**: Provides travel logistics, location details, and how to get there.
+- 🧑‍🏫 **City Guide**: Shares hidden gems, attractions, and user-specific activity suggestions.
+- 🧠 **Planner Expert**: Synthesizes information into a comprehensive travel itinerary.
+- 🔍 **Web Search Tools**: Integrates DuckDuckGo-based search to fetch real-time data.
+- 🧵 **RAG Pipeline**: Context-aware trip planning using relevant web-scraped content.
+- 🖼️ **Streamlit Frontend**: Clean user interface for interacting with the planner.
+
+---
+
+## 🧱 Architecture
+
+
+
+User Input
+
 ▼
 
 [ Streamlit UI ]
@@ -112,7 +137,7 @@ llm = ChatOpenAI(model="gpt-4o", temperature=0.3)
 
 ![output](Images/1.png)
 
-![output]()
+![output](Images/2.png)
 
 ## 🤖 Tech Stack
 
